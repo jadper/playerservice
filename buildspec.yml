@@ -11,6 +11,7 @@ phases:
   post_build:
     commands:
       - echo Build completed
+      - echo aws test step
 artifacts:
   files:
     - target/playerservice-0.0.1-SNAPSHOT.jar
