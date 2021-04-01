@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jadper</groupId>
-	<artifactId>player</artifactId>
+	<artifactId>playerservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>playerservice</name>
 	<description>JAD playerservice</description>
