@@ -28,6 +28,13 @@ class PlayerTests {
 		assert(p.getJersey()==teamId);
 	}
 
+	void createPlayerAndSetName_willFail() {
+		String playerName = "Anna Alm";
+		Player p = new Player();
+		p.setName(playerName);
+		assert(p.getName()=="playerName");
+	}
+
 
 
 
