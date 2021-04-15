@@ -1,18 +1,10 @@
 package com.jadper.player;
 
 import com.jadper.player.model.Player;
-
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class PlayerApplicationTests {
+class PlayerTests {
 
-	/*
-	@Test
-	void contextLoads() {
-	}
-*/
 	@Test
 	void createPlayerAndSetName() {
 		String playerName = "Anna Alm";
