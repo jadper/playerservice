@@ -28,6 +28,7 @@ class PlayerTests {
 		assert(p.getJersey()==teamId);
 	}
 
+	@Test
 	void createPlayerAndSetName_willFail() {
 		String playerName = "Anna Alm";
 		Player p = new Player();
