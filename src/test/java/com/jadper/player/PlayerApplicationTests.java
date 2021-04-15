@@ -8,10 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class PlayerApplicationTests {
 
+	/*
 	@Test
 	void contextLoads() {
 	}
-
+*/
 	@Test
 	void createPlayerAndSetName() {
 		String playerName = "Anna Alm";
