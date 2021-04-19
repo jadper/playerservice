@@ -13,6 +13,7 @@ import java.util.Map;
 public class PlayerService {
     @Autowired
     private PlayerRepository playerRepository;
+    
     public List<Player> listPlayers() {
         return playerRepository.findAll();
     }
